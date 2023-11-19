@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Display</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      overflow: hidden; /* Prevents scrollbars */
+      background: linear-gradient(to bottom right, #800080, #4B0082);
+      color: white;
+    }
+
+    #message {
+      font-size: 36px; /* Adjust font size as needed */
+      display: none;
+      margin-top: 20px;
+    }
+
+    #showButton {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="showButton" onclick="showMessage()">Surun's gf zoriulav</button>
+
+  <div id="message">hairte shv shn amrarein nienanna>!</div>
+
+  <script>
+    function showMessage() {
+      var messageElement = document.getElementById('message');
+      messageElement.style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
